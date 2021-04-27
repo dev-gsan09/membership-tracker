@@ -1,0 +1,28 @@
+{
+  "name": "membership-tracker",
+  "version": "1.0.0",
+  "description": "Web app to monitor membership of an organization.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-gsan09/membership-tracker.git"
+  },
+  "author": "dev-gsan09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-gsan09/membership-tracker/issues"
+  },
+  "homepage": "https://github.com/dev-gsan09/membership-tracker#readme",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
