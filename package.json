@@ -1,5 +1,5 @@
 {
-  "name": "membership-tracker",
+  "name": "member-tracker",
   "version": "1.0.0",
   "description": "Web app to monitor membership of an organization.",
   "main": "server.js",
